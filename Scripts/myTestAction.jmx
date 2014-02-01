@@ -51,7 +51,7 @@
           </HTTPSamplerProxy>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">${__Random(3000,6000)}</stringProp>
+            <stringProp name="ConstantTimer.delay">${__Random(1000,2000)}</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
