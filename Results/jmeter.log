@@ -1,0 +1,45 @@
+2014/02/01 10:27:24 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Loading user properties from: /var/lib/jenkins/jmeter/apache-jmeter-2.11/bin/user.properties 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Loading system properties from: /var/lib/jenkins/jmeter/apache-jmeter-2.11/bin/system.properties 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Version 2.11 r1554548 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: java.version=1.6.0_24 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: java.vm.name=OpenJDK 64-Bit Server VM 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: os.name=Linux 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: os.arch=amd64 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: os.version=3.8.0-19-generic 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: file.encoding=ANSI_X3.4-1968 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: JMeterHome=/var/lib/jenkins/jmeter/apache-jmeter-2.11 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: user.dir  =/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: PWD       =/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: IP: 172.17.0.12 Name: ccdcab7f1378 FullName: ccdcab7f1378 
+2014/02/01 10:27:24 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/02/01 10:27:24 FATAL - jmeter.JMeter: An error occurred:  java.lang.InternalError: Can't connect to X11 window server using 'localhost:10.0' as the value of the DISPLAY variable.
+	at sun.awt.X11GraphicsEnvironment.initDisplay(Native Method)
+	at sun.awt.X11GraphicsEnvironment.access$200(X11GraphicsEnvironment.java:62)
+	at sun.awt.X11GraphicsEnvironment$1.run(X11GraphicsEnvironment.java:178)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.awt.X11GraphicsEnvironment.<clinit>(X11GraphicsEnvironment.java:142)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment(GraphicsEnvironment.java:82)
+	at sun.awt.X11.XToolkit.<clinit>(XToolkit.java:112)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:186)
+	at java.awt.Toolkit$2.run(Toolkit.java:849)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.Toolkit.getDefaultToolkit(Toolkit.java:841)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:185)
+	at javax.swing.ImageIcon.<init>(ImageIcon.java:204)
+	at org.apache.jmeter.plugin.PluginManager.installPlugin(PluginManager.java:61)
+	at org.apache.jmeter.plugin.PluginManager.install(PluginManager.java:47)
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:228)
+	at org.apache.jmeter.JMeter.start(JMeter.java:380)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259)
+
