@@ -110,7 +110,6 @@
               <responseDataOnError>false</responseDataOnError>
               <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
-              <url>true</url>
             </value>
           </objProp>
           <stringProp name="filename">/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results/mytestresult_twoactions.csv</stringProp>
