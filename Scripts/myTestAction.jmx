@@ -93,7 +93,7 @@
               <latency>false</latency>
               <timestamp>true</timestamp>
               <success>true</success>
-              <label>false</label>
+              <label>true</label>
               <code>true</code>
               <message>false</message>
               <threadName>false</threadName>
