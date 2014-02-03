@@ -129,17 +129,17 @@
               <message>true</message>
               <threadName>true</threadName>
               <dataType>true</dataType>
-              <encoding>true</encoding>
-              <assertions>true</assertions>
-              <subresults>true</subresults>
-              <responseData>true</responseData>
-              <samplerData>true</samplerData>
+              <encoding>false</encoding>
+              <assertions>false</assertions>
+              <subresults>false</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
               <xml>true</xml>
               <fieldNames>false</fieldNames>
-              <responseHeaders>true</responseHeaders>
+              <responseHeaders>false</responseHeaders>
               <requestHeaders>true</requestHeaders>
               <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
               <bytes>true</bytes>
               <url>true</url>
