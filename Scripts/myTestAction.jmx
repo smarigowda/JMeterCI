@@ -113,7 +113,7 @@
               <bytes>true</bytes>
             </value>
           </objProp>
-          <stringProp name="filename">/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results/mytestresult.csv</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results/mytestresult_twoactions.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -151,7 +151,7 @@
               <idleTime>true</idleTime>
             </value>
           </objProp>
-          <stringProp name="filename">/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results/mytestresult.jtl</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/jobs/myJMeterJenkinsJob2/workspace/JMeterCI/Results/mytestresult_twoactions.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
