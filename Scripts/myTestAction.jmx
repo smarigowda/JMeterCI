@@ -55,7 +55,7 @@
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="myTestAction_yahoo" enabled="false">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="myTestAction_yahoo" enabled="true">
           <boolProp name="TransactionController.parent">true</boolProp>
         </TransactionController>
         <hashTree>
